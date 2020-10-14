@@ -26,7 +26,7 @@ RUN cp /src/start-cassandra /etc/service/cassandra/run
 EXPOSE 7000 7001 7199 9160 9042
 
 RUN apt-get clean 
-RUN rm -rf /var/lib/apt/lists/* 
+#RUN rm -rf /var/lib/apt/lists/* 
 RUN rm -rf /tmp/* 
 RUN rm -rf /var/tmp/*
 
